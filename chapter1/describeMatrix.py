@@ -12,3 +12,6 @@ print(matrix.shape)
 
 # View number of elements (rows * columns)
 print(matrix.size)
+
+# View number of dimensions
+print(matrix.ndim)

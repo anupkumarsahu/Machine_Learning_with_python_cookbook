@@ -31,4 +31,14 @@ dataframe.rename(columns={'PClass': 'Passenger Class'}).head(2)
 print(dataframe)
 
 # Calculate statistics
-print(dataframe['Age'].max())
+print('Max:',dataframe['Age'].max())
+print('Min:',dataframe['Age'].min())
+print('Mean:',dataframe['Age'].mean())
+print('Sum:',dataframe['Age'].sum())
+print('Count:',dataframe['Age'].count())
+
+# Select unique values
+print('Unique values:',dataframe['Sex'].unique())
+
+# Show unique counts
+print(dataframe['Sex'].value_counts())
